@@ -2,3 +2,9 @@ from: git-default-1.0
 spring:
   datasource:
     username: user_default
+rocketmq:
+  accessKey: LTAI4G6WXP2UZ87x6Pe5qmdD
+  secretKey: qlNTkXZp03V6fuVeBbDH5IkWo7V731
+  topic: TOPIC_ZYQ
+  groupId: GID_TOPIC_ZYQ
+  tag: *
