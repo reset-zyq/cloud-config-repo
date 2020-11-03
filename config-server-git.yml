@@ -5,6 +5,10 @@ spring:
 rocketmq:
   accessKey: LTAI4G6WXP2UZ87x6Pe5qmdD
   secretKey: qlNTkXZp03V6fuVeBbDH5IkWo7V731
+  nameSrvAddr: http://MQ_INST_1382071908219624_BXWF2GNt.mq-internet-access.mq-internet.aliyuncs.com:80
   topic: TOPIC_ZYQ
   groupId: GID_TOPIC_ZYQ
   tag: *
+  timeTopic: time-lapse
+  timeGroupId: GID-message
+  timeTag: *
